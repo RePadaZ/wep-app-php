@@ -10,7 +10,33 @@
     <link href="bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet"/>
 </head>
     <body>
-        <div class="container-xxl border"> Content </div>
+        <header class="header">
+            <h1>Send us a Message</h1>
+        </header>
+        <main class="main">
+            <section class="container">
+                <form class="container-form" action="" method="post">
+                    <div class="container-form-group">
+                        <label for="name">First name:</label><br>
+                        <input id="name" type="text" placeholder="Name" required>
+                        <br><label for="email">Your email:</label><br>
+                        <input id="email" type="email" placeholder="Email" required>
+                    </div>
+                    <div class="container-form-group">
+                        <label for="phone">Your phone:</label><br>
+                        <input id="phone" type="text" placeholder="+7 999 999 99 99" required>
+                        <br>
+                        <label for="url">Your website:</label>
+                        <br>
+                        <input id="url" type="url" placeholder="https://example.com" required >
+                    </div>
+                    <footer class="footer">
+                        <textarea type="text" size="20" placeholder="Write your message" required> </textarea>
+                        <button type="submit">Send Message</button>
+                    </footer>
+                </form>
+            </section>
+        </main>
     <script src="bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

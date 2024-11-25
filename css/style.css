@@ -1,7 +1,18 @@
-.d-flex{
-    margin-right: max(100vw, 100vw);
+.header {
+    text-align: center;
 }
 
-.form-control.me-2{
-    margin-right: max(100vw, 100vw);
+.main {
+    display: grid;
+    justify-content: center;
+}
+
+.container-form-group {
+    display: inline-block;
+}
+
+.footer textarea {
+    width: 100%;
+    height: 150px;
+    margin-top: 3%;
 }
