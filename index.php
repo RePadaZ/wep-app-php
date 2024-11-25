@@ -31,7 +31,7 @@
                         <input id="url" type="url" placeholder="https://example.com" required >
                     </div>
                     <footer class="footer">
-                        <textarea type="text" size="20" placeholder="Write your message" required> </textarea>
+                        <textarea placeholder="Write your message"></textarea>
                         <button type="submit">Send Message</button>
                     </footer>
                 </form>
