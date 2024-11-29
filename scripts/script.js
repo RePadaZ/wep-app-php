@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let xml = new XMLHttpRequest();
 
-        xml.open("POST", "message.PHP", true);
+        xml.open("POST", "rout.PHP", true);
         xml.onload = () => {
             if (xml.status == 200) {
                 let response = xml.response;
