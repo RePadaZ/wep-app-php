@@ -27,6 +27,11 @@
     box-shadow: #2b2f32 1px 1px 1px;
 }
 
+.footer p {
+    display: none;
+    text-align: center;
+}
+
 .footer button {
     margin-top: 3%;
     padding: 1% 5%;
