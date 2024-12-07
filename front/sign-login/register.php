@@ -75,7 +75,7 @@
                                             </div>
                                             <p class="text-center text-center py-3">
                                                 Have already an account?
-                                                <a href="#" class="fw-bold text-body">
+                                                <a href="login.php" class="fw-bold text-body">
                                                     <u>Login here</u>
                                                 </a>
                                             </p>
