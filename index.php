@@ -10,8 +10,8 @@
     <link href="./css/style.css" rel="stylesheet"/>
 </head>
 <body>
-    <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light gap-4">
+    <header class="container-fluid bg-dark-subtle">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark-subtle gap-4">
             <a class="navbar-brand" href="index.php">Logo</a>
             <div class="btn-group gap-3">
                 <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
@@ -48,8 +48,11 @@
             </div>
             <form class="d-flex ms-auto" role="search">
                 <input class="form-control me-lg-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-secondary" type="submit">Search</button>
+                <button class="btn btn-secondary custom-button-style" type="submit">Search</button>
             </form>
+            <a class="btn btn-secondary custom-button-style" href="sign-login">
+                Sign Up / Login in
+            </a>
         </nav>
     </header>
     <main class="container-fluid">
