@@ -9,12 +9,14 @@
     <link href="front/bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet"/>
     <link href="front/css/style.css" rel="stylesheet"/>
 </head>
-<body>
-    <header class="container-fluid bg-dark-subtle">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark-subtle gap-4">
-            <a class="navbar-brand" href="#">Logo</a>
-            <div class="btn-group gap-3">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+<body class="bg-dark-subtle text-light">
+    <header class="d-flex col-lg-8 bg-dark mt-lg-3 justify-content-center mx-auto custom-border-nav p-1">
+        <nav class="navbar navbar-expand-lg navbar-light gap-4">
+            <a class="navbar-brand me-lg-5" href="#">
+                Logo
+            </a>
+            <div class="btn-group gap-3 ms-lg-5">
+                <button type="button" class="btn btn-secondary dropdown-toggle custom-button-style" data-bs-toggle="dropdown"
                         aria-expanded="false">
                     Frontend
                 </button>
@@ -25,7 +27,7 @@
                 </ul>
             </div>
             <div class="btn-group gap-3">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                <button type="button" class="btn btn-secondary dropdown-toggle custom-button-style" data-bs-toggle="dropdown"
                         aria-expanded="false">
                     Backend
                 </button>
@@ -36,26 +38,27 @@
                 </ul>
             </div>
             <div class="btn-group gap-3">
-                <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                <button type="button" class="btn btn-secondary dropdown-toggle me-lg-5 custom-button-style" data-bs-toggle="dropdown"
                         aria-expanded="false">
                     Services
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu ">
                     <li><a class="dropdown-item" href="#">Login in / Sing Up</a></li>
                     <li><a class="dropdown-item" href="#">Templates</a></li>
                     <li><a class="dropdown-item" href="#">How to create</a></li>
                 </ul>
             </div>
-            <form class="d-flex ms-auto" role="search">
+            <form class="d-flex ms-auto ms-lg-5 me-lg-4" role="search">
                 <input class="form-control me-lg-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-secondary custom-button-style" type="submit">Search</button>
             </form>
-            <a class="btn btn-secondary custom-button-style" href="front/sign-login/register.php">
+            <a class="btn btn-secondary custom-button-style ms-lg-5" href="front/sign-login/register.html">
                 Sign Up / Login in
             </a>
         </nav>
     </header>
-    <main class="container-fluid">
+
+<main class="container-fluid">
 
     </main>
     <script src="front/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
