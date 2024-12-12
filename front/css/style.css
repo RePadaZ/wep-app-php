@@ -9,3 +9,12 @@
 .custom-border-nav {
     border-radius: 20rem;
 }
+
+
+/*--------MY-PROJECT--------*/
+#clockJavaScript{
+    color: #171717;
+    font-weight: bold;
+    font-size: 12rem;
+    text-shadow: -1px -1px 0 #000000;
+}
