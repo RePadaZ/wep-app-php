@@ -1,18 +1,18 @@
 const myNovelist = document.getElementsByTagName("LI");
-const close = document.getElementsByClassName("close");
+const close = document.getElementsByClassName("custom-close-style");
 let i;
 
 // Create a "close" button and append it to each list item
 for (i = 0; i < myNovelist.length; i++) {
+
     let span = document.createElement("SPAN");
     let txt = document.createTextNode("\u00D7");
-    span.className = "close";
+    span.className = "custom-close-style";
     span.appendChild(txt);
     myNovelist[i].appendChild(span);
 }
 
 // Click on a close button to hide the current list item
-
 for (i = 0; i < close.length; i++) {
     close[i].onclick = function() {
         let div = this.parentElement;
@@ -21,18 +21,18 @@ for (i = 0; i < close.length; i++) {
 }
 
 // Add a "checked" symbol when clicking on a list item
-let list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-    if (ev.target.tagName === 'LI') {
-        ev.target.classList.toggle('checked');
-    }
-}, false);
+const list = document.querySelector('ul');
+    list.addEventListener('click', function(ev) {
+        if (ev.target.tagName === 'LI') {
+            ev.target.classList.toggle("custom-checked-style");
+        }
+    }, false);
 
 // Create a new list item when clicking on the "Add" button
 function newElement() {
-    let li = document.createElement("li");
-    let inputValue = document.getElementById("myInput").value;
-    let t = document.createTextNode(inputValue);
+    const li = document.createElement("LI");
+    const inputValue = document.getElementById("myInput").value;
+    const t = document.createTextNode(inputValue);
     li.appendChild(t);
     if (inputValue === '') {
         alert("You must write something!");
@@ -43,7 +43,9 @@ function newElement() {
 
     let span = document.createElement("SPAN");
     let txt = document.createTextNode("\u00D7");
-    span.className = "close";
+    span.className += "custom-close-style";
+    li.className = "list-group-item";
+    li.className += " text-center";
     span.appendChild(txt);
     li.appendChild(span);
 

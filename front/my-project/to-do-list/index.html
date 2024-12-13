@@ -9,25 +9,27 @@
   <link href="../../bootstrap-5.3.3-dist/css/bootstrap.css" rel="stylesheet"/>
   <link href="../../css/style.css" rel="stylesheet"/>
 </head>
-<body class="row-cols-6 mt-lg-5">
-  <div class="container-lg">
-    <div id="myDIV" class=" text-center">
-      <h1>My To Do List</h1>
-      <label>
-        <input type="text" id="myInput" placeholder="Title...">
-      </label>
-      <button onclick="newElement()" class="btn btn-success">Add</button>
+  <body class="d-flex flex-column align-items-center mt-5">
+    <div class="container-lg">
+      <div id="myDIV" class="text-center mb-4">
+        <h1>My To Do List</h1>
+        <div>
+          <label class="input-group w-50 mx-auto">
+            <input type="text" id="myInput" class="form-control" placeholder="Title...">
+            <button onclick="newElement()" class="btn btn-success">Add</button>
+          </label>
+        </div>
+      </div>
+      <ul class="list-group w-50 mx-auto" id="myUL">
+        <li class="list-group-item text-center">Hit the gym</li>
+        <li class="list-group-item text-center">Pay bills</li>
+        <li class="list-group-item text-center">Meet George</li>
+        <li class="list-group-item text-center">Buy eggs</li>
+        <li class="list-group-item text-center">Read a book</li>
+        <li class="list-group-item text-center">Organize office</li>
+      </ul>
     </div>
-    <ul class="col-8 mt-lg-5" id="myUL">
-      <li>Hit the gym</li>
-      <li>Pay bills</li>
-      <li>Meet George</li>
-      <li>Buy eggs</li>
-      <li>Read a book</li>
-      <li>Organize office</li>
-    </ul>
-  </div>
-  <script src="../../bootstrap-5.3.3-dist/js/bootstrap.js"></script>
-  <script src="../src/toDoList.js"></script>
-</body>
+    <script src="../../bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="../src/toDoList.js"></script>
+  </body>
 </html>
