@@ -19,6 +19,20 @@
     text-shadow: -1px -1px 0 #000000;
 }
 
+
+/*--------MY-PROJECT--------*/
+
+.custom-js-style {
+    /* for js script */
+}
+
+.custom-action-card {
+    transform: translateZ(50px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+
 /*--------TO-DO-LIST--------*/
 .custom-close-style {
     color: #ffffff;
