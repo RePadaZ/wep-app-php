@@ -24,11 +24,18 @@
     color: #ffffff;
     font-weight: bold;
     font-size: 1.2rem;
-    background-color: #0c0c0c;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.5rem;
+    cursor: pointer;
 }
 
 .custom-close-style:hover {
     color: #f30404;
+}
+
+.custom-pointer-style {
+    cursor: pointer;
 }
 
 .custom-checked-style {

@@ -4,11 +4,10 @@ let i;
 
 // Create a "close" button and append it to each list item
 for (i = 0; i < myNovelist.length; i++) {
-
-    let span = document.createElement("SPAN");
-    let txt = document.createTextNode("\u00D7");
+    const span = document.createElement("SPAN");
+    const text =document.createTextNode("\u00D7");
     span.className = "custom-close-style";
-    span.appendChild(txt);
+    span.appendChild(text);
     myNovelist[i].appendChild(span);
 }
 
@@ -41,12 +40,11 @@ function newElement() {
     }
     document.getElementById("myInput").value = "";
 
-    let span = document.createElement("SPAN");
-    let txt = document.createTextNode("\u00D7");
+    const span = document.createElement("SPAN");
+    const text =document.createTextNode("\u00D7");
     span.className += "custom-close-style";
-    li.className = "list-group-item";
-    li.className += " text-center";
-    span.appendChild(txt);
+    li.className = "list-group-item text-center bg-dark text-light custom-pointer-style";
+    span.appendChild(text);
     li.appendChild(span);
 
     for (i = 0; i < close.length; i++) {
