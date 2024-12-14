@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+    "use strict";
     const cards = document.querySelectorAll(".custom-js-style");
 
     cards.forEach((card) => {

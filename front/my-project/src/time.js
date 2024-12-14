@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-
+    "use strict";
     const element = document.getElementById("clockJavaScript");
 
     function showClock() {
